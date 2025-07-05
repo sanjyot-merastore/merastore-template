@@ -1,0 +1,51 @@
+{
+	"$schema": "http://json.schemastore.org/template",
+	"author": "Sanjyot Agureddy",
+	"classifications": [ "Web API", "ASP.NET Core", "Clean Architecture", "Microservices", "DDD" ],
+	"tags": {
+		"language": "C#",
+		"type": "project"
+	},
+	"identity": "MeraStore.Services.Template",
+	"name": "MeraStore Microservice Template",
+	"shortName": "ms-template",
+	"sourceName": "MeraStore.Services.Template",
+	"preferNameDirectory": false,
+	"symbols": {
+		"solution": {
+			"type": "parameter",
+			"dataType": "text",
+			"defaultValue": "ms-template.sln",
+			"fileRename": "ms-template.sln",
+			"description": "The name of the solution file (exclude .sln extension).",
+			"isRequired": true,
+			"shortName": "s"
+		},
+		"serviceName": {
+			"type": "parameter",
+			"dataType": "text",
+			"defaultValue": "Auth",
+			"replaces": "Auth",
+			"description": "Service name to be used throughout the project."
+		}
+	},
+	"sources": [
+		{
+			"source": "./",
+			"target": "./",
+			"exclude": [
+				".vs/**/*",
+				".git/**/*",
+				"node_modules/**/*",
+				".template.config/**/*",
+				"templates/**/*",
+				"**/*.filelist",
+				"**/*.user",
+				"**/*.lock.json",
+				"**/bin/**/*",
+				"**/obj/**/*",
+				"*.nuspec"
+			]
+		}
+	]
+}
