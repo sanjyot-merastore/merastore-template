@@ -1,12 +1,15 @@
 ﻿using MeraStore.Shared.Kernel.Logging.Filters;
 using MeraStore.Shared.Kernel.Logging.Interfaces;
 
+using System.Diagnostics.CodeAnalysis;
+
 namespace MeraStore.Services.Template.Common.Filters;
 
 /// <summary>
 /// Factory for creating preconfigured masking filters specific to the Auth Service.
 /// Used to mask sensitive fields in request and response payloads for secure logging.
 /// </summary>
+[ExcludeFromCodeCoverage]
 public static class MaskingFilterFactory
 {
   /// <summary>

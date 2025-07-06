@@ -3,7 +3,7 @@
 using MeraStore.Services.Template.Application.Features.Health;
 using MeraStore.Services.Template.Common;
 
-namespace MeraStore.Services.Template.UnitTests.Features.Health
+namespace MeraStore.Services.Template.UnitTests.Application.Features.Health
 {
   public class GetHealthQueryHandlerTests
   {
