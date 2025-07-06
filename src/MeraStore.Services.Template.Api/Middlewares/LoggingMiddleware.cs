@@ -1,4 +1,4 @@
-﻿using MeraStore.Services.Template.Api.Filters;
+﻿using MeraStore.Services.Template.Common.Filters;
 using MeraStore.Shared.Kernel.Logging.Interfaces;
 using MeraStore.Shared.Kernel.Logging.Loggers;
 using MeraStore.Shared.Kernel.WebApi;

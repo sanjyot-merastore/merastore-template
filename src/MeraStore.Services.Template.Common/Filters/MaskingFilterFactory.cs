@@ -1,7 +1,7 @@
 ﻿using MeraStore.Shared.Kernel.Logging.Filters;
 using MeraStore.Shared.Kernel.Logging.Interfaces;
 
-namespace MeraStore.Services.Template.Api.Filters;
+namespace MeraStore.Services.Template.Common.Filters;
 
 /// <summary>
 /// Factory for creating preconfigured masking filters specific to the Auth Service.

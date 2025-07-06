@@ -1,6 +1,6 @@
-﻿using MeraStore.Services.Template.Api.Filters;
-using MeraStore.Services.Template.Application;
+﻿using MeraStore.Services.Template.Application;
 using MeraStore.Services.Template.Common;
+using MeraStore.Services.Template.Common.Filters;
 using MeraStore.Services.Template.Domain.Entities;
 
 using System.Reflection;
