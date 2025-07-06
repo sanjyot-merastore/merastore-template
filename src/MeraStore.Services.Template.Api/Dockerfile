@@ -15,6 +15,7 @@ WORKDIR /src
 COPY ["src/MeraStore.Services.Template.Api/MeraStore.Services.Template.Api.csproj", "src/MeraStore.Services.Template.Api/"]
 COPY ["src/MeraStore.Services.Template.Infrastructure/MeraStore.Services.Template.Infrastructure.csproj", "src/MeraStore.Services.Template.Infrastructure/"]
 COPY ["src/MeraStore.Services.Template.Persistence/MeraStore.Services.Template.Persistence.csproj", "src/MeraStore.Services.Template.Persistence/"]
+COPY ["src/MeraStore.Services.Template.Application/MeraStore.Services.Template.Application.csproj", "src/MeraStore.Services.Template.Application/"]
 COPY ["src/MeraStore.Services.Template.Domain/MeraStore.Services.Template.Domain.csproj", "src/MeraStore.Services.Template.Domain/"]
 COPY ["src/MeraStore.Services.Template.Common/MeraStore.Services.Template.Common.csproj", "src/MeraStore.Services.Template.Common/"]
 RUN dotnet restore "./src/MeraStore.Services.Template.Api/MeraStore.Services.Template.Api.csproj"
