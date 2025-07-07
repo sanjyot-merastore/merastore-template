@@ -1,4 +1,4 @@
-﻿using MeraStore.Shared.Kernel.Common.Core.Domain.Entities;
+﻿using MeraStore.Shared.Kernel.Core.Domain.Entities;
 
 namespace MeraStore.Services.Template.Domain.Entities;
 

@@ -1,6 +1,7 @@
 ﻿using MediatR;
 using MeraStore.Services.Template.Application.Behaviours;
 using MeraStore.Services.Template.Application.Features.Health;
+using MeraStore.Services.Template.Application.Mappers;
 
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
@@ -14,6 +15,8 @@ public static class ServiceRegistrations
 
     services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(GetHealthQuery).Assembly));
     services.AddTransient(typeof(IPipelineBehavior<,>), typeof(ValidationBehavior<,>));
+
+    services.AddAutoMapper(cfg => cfg.AddMaps(typeof(MappingProfile).Assembly));
     return services;
   }
 }
